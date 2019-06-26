@@ -21,3 +21,10 @@ ht_on() {
 }
 # echo 0 for disabling
 ```
+
+## Edit large files in-place
+
+```
+hexedit filename
+```
+Loads only small portion of the file as you navigate. Writes are in place and hence very fast. Use tab to navigate between ASCII view and Hex view.
