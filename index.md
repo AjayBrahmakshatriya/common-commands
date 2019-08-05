@@ -28,3 +28,15 @@ ht_on() {
 hexedit filename
 ```
 Loads only small portion of the file as you navigate. Writes are in place and hence very fast. Use tab to navigate between ASCII view and Hex view.
+
+
+## Reset a slurm node stuck in CG state 
+Run the following command from the control node - 
+```
+sudo scontrol update nodename=<node_name> state=down reason=hang
+sudo scontrol update nodename=<node_name> state=resume
+
+#To check the status after
+sinfo
+```
+
