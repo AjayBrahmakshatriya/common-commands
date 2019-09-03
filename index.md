@@ -40,3 +40,7 @@ sudo scontrol update nodename=<node_name> state=resume
 sinfo
 ```
 
+## Add new users to SLURM
+```
+sudo sacctmgr add user name=<username> account=<acctname>
+```
