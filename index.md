@@ -44,3 +44,8 @@ sinfo
 ```
 sudo sacctmgr add user name=<username> account=<acctname>
 ```
+
+## Run the puppet agent again to sync changes
+```
+sudo puppet agent -t
+```
