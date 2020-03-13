@@ -49,3 +49,9 @@ sudo sacctmgr add user name=<username> account=<acctname>
 ```
 sudo puppet agent -t
 ```
+
+## Manage AFS group membership
+```
+pts membership commit
+pts adduser -user <user> -group commit
+```
