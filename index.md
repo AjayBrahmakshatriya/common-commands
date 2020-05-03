@@ -55,3 +55,7 @@ sudo puppet agent -t
 pts membership commit
 pts adduser -user <user> -group commit
 ```
+
+
+## Allow all users to run nvvp and nvprof with profiling counters (required after nvidia-driver-418)
+Follow instructions from [here](https://developer.nvidia.com/nvidia-development-tools-solutions-ERR_NVGPUCTRPERM-permission-issue-performance-counters#SolnAdminTag)
